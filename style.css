@@ -1,0 +1,150 @@
+body {
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+
+nav ul {
+    
+    background-color: orange;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.upper-class a{
+    text-decoration-color: black
+}
+
+ul.upper-class li {
+    
+    list-style: none;
+    float: left;
+}
+
+ul.upper-class li a{
+    
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    min-height: 20px;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+ul.upper-class li a:hover {
+    
+    background-color: darkgrey;
+    color: black;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+    }
+div .box{
+    background-color: orange;
+    margin: 30px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+
+#box1 {
+    margin: 15px;
+}
+
+div .icon1 img{
+    width: 45px;
+    height: 45px;
+}
+
+a {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: oblique;
+}
+p{
+    font-weight: bold;
+}
+
+button{
+    font-size: 15px;
+    font-weight: 600;
+    color: blue;
+    background-color: orange;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+button.buttonclass {
+    display: block;
+    margin: auto;
+}
+button.buttonclass:hover{
+    background-color: darkgray;
+    color: black;
+}
+ul.bold {
+    overflow: hidden;
+    margin: 10px;
+    padding: 0 ;
+}
+ul.bold li{
+    line-height: 1.3;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique
+}
+#paddingid {
+    padding: 0px 300px 0px 100px;
+}
+#footer-right{
+    float: right;
+}
+#size{ 
+    font-size: 30px;
+}
+#curve{
+    border-radius: 10px;
+}
+
+
+}
+.col-1 {width: 8.33%;}
+.col-1 {width: 16.66%;}
+.col-1 {width: 25%;}
+.col-1 {width: 33.33%;}
+.col-1 {width: 41.66%;}
+.col-1 {width: 50%;}
+.col-1 {width: 66.66%;}
+.col-1 {width: 75%;}
+.col-1 {width: 83.33%;}
+.col-1 {width: 91.66%;}
+.col-1 {width: 100%;}
